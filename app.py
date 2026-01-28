@@ -40,7 +40,7 @@ uploaded_file = st.file_uploader(
     type=["jpg", "jpeg", "png"]
 )
 
-
+# this section will generate the recipe based on the uploaded image
 if uploaded_file:
 
     # Show Image
